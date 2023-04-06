@@ -1,0 +1,17 @@
+{
+    "name": "Azure Realtime Transport for Netcode for GameObjects",
+    "rootNamespace": "Netcode.Transports.AzureRealtime",
+    "references": [
+        "Unity.Netcode.Runtime",
+        "UniTask"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
