@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>netstandard2.0</TargetFramework>
+		<LangVersion>10.0</LangVersion>
+		<CopyLocalLockFileAssemblies>true</CopyLocalLockFileAssemblies>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Azure.Messaging.WebPubSub.Client" Version="1.0.0-beta.2" />
+	</ItemGroup>
+
+	<Import Project="Sdk.props" Sdk="Microsoft.NET.Sdk" />
+	<Import Project="Sdk.targets" Sdk="Microsoft.NET.Sdk" />
+
+	<Target Name="AfterBuild">
+		<!-- Move the DLL to the Unity project. -->
+		<PropertyGroup>
+			<TargetDir>..\..\NugetPackagesDll</TargetDir>
+		</PropertyGroup>
+		<ItemGroup>
+			<SourceDir Include="bin\Debug\**\*.*" />
+		</ItemGroup>
+		<Copy SourceFiles="@(SourceDir)" DestinationFolder="$(TargetDir)" SkipUnchangedFiles="true" />
+	</Target>
+</Project>

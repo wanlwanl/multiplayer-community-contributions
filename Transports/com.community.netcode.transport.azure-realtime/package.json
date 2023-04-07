@@ -1,0 +1,16 @@
+{
+  "name": "com.community.netcode.transport.azure-realtime",
+  "displayName": "Azure Realtime Transport for Netcode for GameObjects",
+  "version": "0.1.0",
+  "unity": "2019.4",
+  "description": "Azure Realtime Transport for Netcode for GameObjects",
+  "author": "",
+  "dependencies": {},
+  "keywords": [
+    "Azure",
+    "Web PubSub",
+    "SignalR",
+    "Realtime",
+    "WebSockets"
+  ]
+}
