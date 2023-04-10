@@ -17,7 +17,7 @@ namespace Netcode.Transports.AzureRealtime
         #region Inspector settings
 
         public ServiceType ServiceType;
-        public string NegotiateEndpoint;
+        public string NegotiateEndpoint = "https://localhost:7172/negotiate";
         public string RoomId = "DefaultRoom";
 
         private ConnectionOptions _options;
