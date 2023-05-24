@@ -1,6 +1,4 @@
-﻿using System.Threading.Tasks;
-
-namespace NegotiateServer.Services
+﻿namespace Netcode.Transports.Azure.RealtimeMessaging.WebPubSub.NegotiateServer.Services
 {
     public interface IRoomManager
     {

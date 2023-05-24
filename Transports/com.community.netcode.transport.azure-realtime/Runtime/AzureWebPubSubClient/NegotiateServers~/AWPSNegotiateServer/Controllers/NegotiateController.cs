@@ -1,9 +1,9 @@
 ﻿using Azure.Messaging.WebPubSub;
 using Microsoft.AspNetCore.Mvc;
-using NegotiateServer.Services;
+using Netcode.Transports.Azure.RealtimeMessaging.WebPubSub.NegotiateServer.Services;
 using Netcode.Transports.AzureRealtime;
 
-namespace NegotiateServer.Controllers
+namespace Netcode.Transports.Azure.RealtimeMessaging.WebPubSub.NegotiateServer.Controllers
 {
     [ApiController]
     [Route("[controller]")]

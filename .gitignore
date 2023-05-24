@@ -269,3 +269,5 @@ upm-ci~
 .DS_Store
 
 Transports/com.community.netcode.transport.azure-realtime/NegotiateServer~/appsettings.json
+
+Transports/com.community.netcode.transport.azure-realtime/Runtime/AzureWebPubSubClient/NegotiateServers~/AWPSNegotiateServer/appsettings.json
