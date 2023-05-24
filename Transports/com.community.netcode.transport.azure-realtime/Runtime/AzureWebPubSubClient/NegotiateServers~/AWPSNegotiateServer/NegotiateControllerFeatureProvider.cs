@@ -1,8 +1,8 @@
 ﻿using Microsoft.AspNetCore.Mvc.Controllers;
-using NegotiateServer.Controllers;
+using Netcode.Transports.Azure.RealtimeMessaging.WebPubSub.NegotiateServer.Controllers;
 using System.Reflection;
 
-namespace NegotiateServer
+namespace Netcode.Transports.Azure.RealtimeMessaging.WebPubSub.NegotiateServer.Services
 {
     public class NegotiateControllerFeatureProvider : ControllerFeatureProvider
     {

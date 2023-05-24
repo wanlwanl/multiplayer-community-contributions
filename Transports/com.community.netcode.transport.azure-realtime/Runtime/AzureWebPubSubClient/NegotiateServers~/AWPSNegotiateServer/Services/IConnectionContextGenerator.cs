@@ -1,6 +1,6 @@
 ﻿using Netcode.Transports.AzureRealtime;
 
-namespace NegotiateServer.Services
+namespace Netcode.Transports.Azure.RealtimeMessaging.WebPubSub.NegotiateServer.Services
 {
     internal interface IConnectionContextGenerator
     {

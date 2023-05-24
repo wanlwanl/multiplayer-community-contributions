@@ -1,9 +1,8 @@
 ﻿using Azure.Messaging.WebPubSub;
-using System.Threading.Tasks;
 
-namespace NegotiateServer.Services
+namespace Netcode.Transports.Azure.RealtimeMessaging.WebPubSub.NegotiateServer.Services
 {
-    internal class RoomManager : IRoomManager
+    public class RoomManager : IRoomManager
     {
         private WebPubSubServiceClient _serviceClient;
 

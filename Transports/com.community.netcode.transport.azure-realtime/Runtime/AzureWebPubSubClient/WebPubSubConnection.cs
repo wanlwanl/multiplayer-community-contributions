@@ -139,7 +139,7 @@ namespace Netcode.Transports.AzureRealtime
             var parameters = new NegotiateParameters() { NegotiateType = NegotiateType, RoomId = Options.RoomId };
             var reqBody = JsonSerializer.Serialize(parameters);
             var jsonToSend = new System.Text.UTF8Encoding().GetBytes(reqBody);
-            using var request = UnityWebRequest.PostWwwForm(Options.NegotiateEndpoint, reqBody);
+            using var request = UnityWebRequest.Post(Options.NegotiateEndpoint, reqBody);
             using var uploadHandler = new UploadHandlerRaw(jsonToSend);
             using var downloadHandler = new DownloadHandlerBuffer();
             request.uploadHandler = uploadHandler;

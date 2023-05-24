@@ -1,7 +1,6 @@
 using Azure.Messaging.WebPubSub;
-using NegotiateServer.Services;
 
-namespace NegotiateServer
+namespace Netcode.Transports.Azure.RealtimeMessaging.WebPubSub.NegotiateServer.Services
 {
     public static class Program
     {
