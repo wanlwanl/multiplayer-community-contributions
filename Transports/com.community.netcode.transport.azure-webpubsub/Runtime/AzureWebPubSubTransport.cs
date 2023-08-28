@@ -16,7 +16,6 @@ namespace Netcode.Transports.AzureWebPubSub
     {
         #region Inspector settings
 
-        public ServiceType ServiceType;
         public string NegotiateEndpoint = "https://localhost:7172/negotiate";
         public string RoomId = "DefaultRoom";
 
@@ -141,7 +140,7 @@ namespace Netcode.Transports.AzureWebPubSub
             {
                 EventQueue = new(),
                 NegotiateEndpoint = NegotiateEndpoint,
-                ServiceType = ServiceType,
+                ServiceType = ServiceType.WebPubSub,
                 RoomId = _connectionData.RoomId,
             };
         }
