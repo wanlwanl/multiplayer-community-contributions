@@ -1,7 +1,7 @@
 ﻿using Azure.Messaging.WebPubSub;
 using Microsoft.AspNetCore.Mvc;
 using Netcode.Transports.Azure.RealtimeMessaging.WebPubSub.NegotiateServer.Services;
-using Netcode.Transports.AzureRealtime;
+using Netcode.Transports.AzureWebPubSub;
 
 namespace Netcode.Transports.Azure.RealtimeMessaging.WebPubSub.NegotiateServer.Controllers
 {

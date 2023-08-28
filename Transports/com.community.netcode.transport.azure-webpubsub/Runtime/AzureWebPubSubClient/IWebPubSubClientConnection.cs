@@ -1,6 +1,6 @@
 using Cysharp.Threading.Tasks;
 
-namespace Netcode.Transports.AzureRealtime
+namespace Netcode.Transports.AzureWebPubSub
 {
     internal interface IWebPubSubClientConnection : IWebPubSubConnection
     {

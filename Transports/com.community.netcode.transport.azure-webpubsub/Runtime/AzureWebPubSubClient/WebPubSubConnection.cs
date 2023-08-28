@@ -14,7 +14,7 @@ using System.Runtime.InteropServices;
 
 #endif
 
-namespace Netcode.Transports.AzureRealtime
+namespace Netcode.Transports.AzureWebPubSub
 {
     internal abstract class WebPubSubConnection
 

@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 using Unity.Netcode;
 using UnityEngine;
 
-namespace Netcode.Transports.AzureRealtime
+namespace Netcode.Transports.AzureWebPubSub
 {
     internal class WebPubSubServerConnection : WebPubSubConnection, IWebPubSubServerConnection
     {

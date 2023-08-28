@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Globalization;
 using Unity.Netcode;
 
-namespace Netcode.Transports.AzureRealtime
+namespace Netcode.Transports.AzureWebPubSub
 {
     internal class NetworkEventQueue
     {

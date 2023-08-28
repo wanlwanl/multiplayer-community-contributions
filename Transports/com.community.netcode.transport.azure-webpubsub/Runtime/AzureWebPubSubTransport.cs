@@ -10,9 +10,9 @@ using System.Runtime.InteropServices;
 
 #endif
 
-namespace Netcode.Transports.AzureRealtime
+namespace Netcode.Transports.AzureWebPubSub
 {
-    public class AzureRealtimeTransport : NetworkTransport
+    public class AzureWebPubSubTransport : NetworkTransport
     {
         #region Inspector settings
 

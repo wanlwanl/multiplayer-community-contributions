@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Netcode.Transports.AzureRealtime
+namespace Netcode.Transports.AzureWebPubSub
 {
     public class AzureRealtimeTransportException : Exception
     {

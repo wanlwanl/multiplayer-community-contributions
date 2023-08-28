@@ -1,6 +1,6 @@
 {
-    "name": "Azure Realtime Transport for Netcode for GameObjects",
-    "rootNamespace": "Netcode.Transports.AzureRealtime",
+    "name": "Azure Web PubSub Transport for Netcode for GameObjects",
+    "rootNamespace": "Netcode.Transports.AzureWebPubSub",
     "references": [
         "Unity.Netcode.Runtime",
         "UniTask"

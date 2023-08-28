@@ -1,4 +1,4 @@
-﻿using Netcode.Transports.AzureRealtime;
+﻿using Netcode.Transports.AzureWebPubSub;
 
 namespace Netcode.Transports.Azure.RealtimeMessaging.WebPubSub.NegotiateServer.Services
 {

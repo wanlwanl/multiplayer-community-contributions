@@ -1,7 +1,7 @@
 using System;
 using Unity.Netcode;
 
-namespace Netcode.Transports.AzureRealtime
+namespace Netcode.Transports.AzureWebPubSub
 {
     internal class AWPSNetworkEvent
 

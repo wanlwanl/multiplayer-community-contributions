@@ -4,7 +4,7 @@ using UnityEngine;
 using System.Runtime.CompilerServices;
 using System.Threading.Tasks;
 
-namespace Netcode.Transports.AzureRealtime
+namespace Netcode.Transports.AzureWebPubSub
 {
     public static class AsyncOperationExtensions
     {

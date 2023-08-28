@@ -1,4 +1,4 @@
-namespace Netcode.Transports.AzureRealtime
+namespace Netcode.Transports.AzureWebPubSub
 {
     public enum ConnectionState
     {
