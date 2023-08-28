@@ -271,3 +271,5 @@ upm-ci~
 Transports/com.community.netcode.transport.azure-realtime/NegotiateServer~/appsettings.json
 
 Transports/com.community.netcode.transport.azure-realtime/Runtime/AzureWebPubSubClient/NegotiateServers~/AWPSNegotiateServer/appsettings.json
+
+Transports/com.community.netcode.transport.azure-webpubsub/Runtime/AzureWebPubSubClient/NegotiateServers~/AWPSNegotiateServer/appsettings.json
